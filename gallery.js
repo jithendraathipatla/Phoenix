@@ -217,18 +217,18 @@ else {
 
   $("#ef").click(function(){
    
-    $("html, body" ).animate({scrollTop:2130}, 'slow');
+    $("html, body" ).animate({scrollTop:2630}, 'slow');
     return false;
   });
 
   $("#fg").click(function(){
-    $("html, body" ).animate({scrollTop:2530}, 'slow');
+    $("html, body" ).animate({scrollTop:3000}, 'slow');
     return false;
   });
 
   $("#gh").click(function(){
 
-    $("html, body" ).animate({scrollTop:3320}, 'slow');
+    $("html, body" ).animate({scrollTop:3820}, 'slow');
     return false;
   });
   
