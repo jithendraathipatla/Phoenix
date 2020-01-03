@@ -27,21 +27,8 @@
 		$response = curl_exec($ch);
 		curl_close($ch);
 		echo "<h1  style=\"text-align:center\">Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
-		echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1cQjo-FwWNmCqFv_71lLac2heQyOIGTZT">Click here to download Brochure [Hyde]</a><h3>';
-		echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1uCIKnYTyTH27_ueX1dvAIbAG_UCtOcKd">Click here to download Brochure [Regent]</a><h3>';
-		echo "<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-154997131-1\"></script>
-              <script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
-
-				gtag('config', 'UA-154997131-1');
-				gtag('config', 'AW-682287415');
-
-				<!-- Event snippet for Finsbury conversion page -->
-				<script>
-				gtag('event', 'conversion', {'send_to': 'AW-682287415/VmsVCM-QsrgBELfCq8UC'});
-				</script>";
+		// echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1cQjo-FwWNmCqFv_71lLac2heQyOIGTZT">Click here to download Brochure [Hyde]</a><h3>';
+		// echo '<h3 style="text-align:center"><a href="https://drive.google.com/open?id=1uCIKnYTyTH27_ueX1dvAIbAG_UCtOcKd">Click here to download Brochure [Regent]</a><h3>';
 	    }
 		else{
 			echo "Something went wrong!";
