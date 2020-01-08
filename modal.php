@@ -4,7 +4,7 @@
 		$email=$_POST['client_mail_id'];
 		$phone=$_POST['client_phone_number'];
 	
-		$to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
+		$to='livexcellence1@gmail.com, jithendraathipatla@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Phoenix one Banglore west';
 		$message="ProjectName:"."Phoenix one Banglore west"."\n"."Name :".$name."\n"."Phone :".$phone."\n"."Email :".$email."\n";
 		$headers="From: ".$email;

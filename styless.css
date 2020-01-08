@@ -846,7 +846,7 @@ rounded-circle:hover{
   and (device-height: 823px) 
 {
     img.adjusting_image {
-      height: 319px !important;
+      height: 425px !important;
   }
 
 }
@@ -854,7 +854,7 @@ rounded-circle:hover{
 @media only screen and (min-width: 411px) and (max-width: 767px) { 
 
   img.adjusting_image {
-    height: 319px !important;
+    height: 425px !important;
 }
 
 }

@@ -1,11 +1,8 @@
-
-
-
 <?php
     if(isset($_POST['submit'])){
 		$email=$_POST['email'];
 		$phone=$_POST['mobile'];
-	    $to='livexcellence1@gmail.com'; // Receiver Email ID, Replace with your email ID
+	    $to='livexcellence1@gmail.com, jithendraathipatla@gmail.com'; // Receiver Email ID, Replace with your email ID
 		$subject='Phoenix one Banglore west';
 		$message="ProjectName:"."Phoenix one Banglore west"."\n"."Email :".$email."\n"."Phone :".$phone."\n";
 		$headers="From: ".$email;
